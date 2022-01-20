@@ -13,7 +13,9 @@ public class GitDemoApplication {
         System.out.println("master test");
         System.out.println("hot-fix test");
         System.out.println("after push...");
+        System.out.println("before pull...");
         SpringApplication.run(GitDemoApplication.class, args);
+        
     }
 
 }
